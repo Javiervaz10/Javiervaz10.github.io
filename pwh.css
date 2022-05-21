@@ -1,0 +1,51 @@
+
+div.contenedorMenu {
+	width:90%;
+	max-width:1000px;
+	margin: 20px auto;
+    margin-left: 10px;
+	display: grid;
+	grid-template-columns: 30% 70%;
+	gap: 20px;
+}
+
+header {
+	position: relative;
+	height:auto;
+}
+
+header .menu {	
+	border-radius: 5px;
+	background:rgb(255, 255, 255);
+	overflow: hidden;
+}
+
+header nav {
+	float:right;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	float: left;
+}
+
+header nav ul li a {
+	color:rgba(0,0,0,.8);
+	text-decoration: none;
+	display: block;
+	font-size:18px;
+	padding:0 20px;
+	line-height:50px;
+}
+
+header nav ul li:hover {
+	background:rgba(0,0,0,.8);
+}
+
+header nav ul li a:hover {
+	color:#fff;
+}
+

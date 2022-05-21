@@ -1,0 +1,222 @@
+@charset 'UTF-8';
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: Arial,'Open Sans', sans-serif;
+    font-size: small;
+    background-color: #5E2129;    
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    -webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+div.Encabezado_Principal{    
+    
+	display: block;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-bottom: 5px;    
+    background-color: #FFFFFF;       
+	border-radius: 3px;
+    margin: 20px auto;
+}
+
+h3.indice{
+    font-size: 14;
+}
+
+div.Encabezado_Principal img.left{    
+    height: 10%;
+    margin-top: -5px;
+    width: 15%;
+    float: left;    
+}
+
+div.Encabezado_Principal img.right{    
+    margin: 5px auto;    
+    margin-right: 20px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    width: 9%;
+    height: 12%;
+    float: right;
+}
+
+div.reset {
+    clear: both;
+}
+
+h1.title p.text{
+    text-align: center;
+    color: #102c54;
+}
+
+p.name{    
+    text-align: center;
+    font-size: 18px;
+    font: #000000;
+}
+
+h2.subtitle{    
+    text-align: center;
+    color:#e90102;   
+}
+
+@font-face {
+  font-family: 'socicon';
+  src:url('../fonts/socicon.eot');
+  src:url('../fonts/socicon.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/socicon.woff') format('woff'),
+    url('../fonts/socicon.ttf') format('truetype'),
+    url('../fonts/socicon.svg#socicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#indice{
+    font-size: 20;
+}
+
+li{
+    list-style:none;
+    position: sticky;
+}
+
+font.subtitle{
+    
+    font-family: Arial black, sans-serif,'Open Sans';
+}
+
+#enlace{
+    font-size: 15px;
+}
+
+label{
+    text-align: right;
+    font-size: 14;
+    font-family: Arial Black, sans-serif;
+}
+
+.lista{
+    font-family:  Helvetica;
+}
+
+.iu1{
+    margin-left: 10%;
+    display: block;
+    margin: auto;
+}
+
+.iu2{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+img.iu3{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+div.listaN, li.nueva{
+    list-style:circle;
+    display: block;
+    color: #000000;
+}
+div #Indec{
+    display: block;
+    margin-left: 10%;
+}
+.iu3{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+.iu4{
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+h5.p{
+    font-size: 12;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+    font-size: 16;
+}
+
+div.componentes{
+    display: block;
+    margin: auto;
+    margin-left: 10%;
+}
+div.pasos{
+    text-align: justify;
+    
+}
+div.numero{
+    display: block;
+    margin-left: 10%;
+}
+
+div.seccion1{
+    margin-bottom: -1000px;
+}
+
+.board
+{
+    font-size: large;
+    text-align: center;
+    border-style: solid;
+    border-color: #703f3f;
+    border-bottom: -5px;    
+    background-color:rgba(20, 2, 2, 0.836);       
+	border-radius: 3px;
+    margin: 20px auto;
+    height: 10PX auto;
+    padding: 0px 40px 40px 40px;
+    margin-right: -40%;
+	margin-bottom: 40px;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.63) 0px 1px 4px;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: 620px;
+}
+.contenedor-1 {
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+    margin-left: 10px;
+	display: grid;
+	grid-template-columns: 30% 70%;
+	gap: 20px;
+	text-align: justify;
+}
+
+div.apartado {
+    font-size: large;
+    text-align: justify;
+    border-style: solid;
+    border-color: #ffffff;
+    border-bottom: -5px;    
+    background-color:rgb(255, 255, 255);       
+	border-radius: 3px;
+    margin: 20px auto;
+    width: 60%;
+    height: 10PX auto;
+    padding: 0px 40px 40px 40px;
+	margin-bottom: 40px;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.63) 0px 1px 4px;
+}
